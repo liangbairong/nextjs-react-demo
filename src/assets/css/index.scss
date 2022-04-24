@@ -1,0 +1,90 @@
+
+.index-menu {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  li {
+    flex: 1;
+    text-align: center;
+  }
+
+  .action {
+    background: red;
+  }
+}
+
+.slider-main {
+  height: calc(100vh - 90px);
+}
+
+.box-main {
+  height: calc(100vh - 90px);
+
+  .box-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+      flex: 1;
+    }
+  }
+
+  .box-privilege {
+
+    .box-privilege-tit {
+      text-align: center;
+    }
+
+    .box-privilege-con {
+      height: 400px;
+      overflow-y: auto;
+
+      .privilege-ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .privilege-li {
+          flex: 0 0 30%;
+
+        }
+      }
+
+    }
+  }
+}
+
+
+.index-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ccc;
+}
+
+
+.confirm-dialog {
+  background: #fff;
+}
+
+
+.submit {
+  text-align: center;
+  background: #1F6F1A;
+  color: #fff;
+  border-radius: 20px;
+  height: 40px;
+}
+
+
+.box-logo {
+  width: 100px;
+}
